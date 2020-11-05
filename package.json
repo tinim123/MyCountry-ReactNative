@@ -1,0 +1,38 @@
+{
+  "name": "MyCountry",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "firebase": "^6.4.2",
+    "lodash": "^4.17.15",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-geolocation-service": "^4.0.2",
+    "react-native-maps": "0.27.1",
+    "react-native-maps-directions": "^1.8.0",
+    "react-native-permissions": "^2.1.5",
+    "react-native-router-flux": "^4.0.6",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/runtime": "7.5.5",
+    "@react-native-community/eslint-config": "0.0.3",
+    "babel-jest": "24.9.0",
+    "eslint": "6.2.2",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
